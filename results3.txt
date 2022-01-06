@@ -1,0 +1,535 @@
+python3 train_Flavio3.py 
+Class             Count
+------------------------
+valid                6
+train                6
+test                 6
+Total number of classes: 3
+46312 1200 46312
+Training 46312 1.0
+Validation 1200 0.025911210917256868
+Test 46312 1.0
+1024
+1000
+6
+Started Epoch: 1
+loss: 1.835822  [    0/46312]
+loss: 0.909745  [ 6400/46312]
+loss: 0.830648  [12800/46312]
+loss: 0.660597  [19200/46312]
+loss: 0.541230  [25600/46312]
+loss: 0.668496  [32000/46312]
+loss: 0.598105  [38400/46312]
+loss: 0.639676  [44800/46312]
+Finished Epoch: 1 	Avg. Training Loss: 0.72404 	Avg. Validation Loss: 0.72152
+Validation loss decreased (inf --> 0.72152). Saving model ...
+Started Epoch: 2
+loss: 0.555580  [    0/46312]
+loss: 0.508185  [ 6400/46312]
+loss: 0.535668  [12800/46312]
+loss: 0.484504  [19200/46312]
+loss: 0.507945  [25600/46312]
+loss: 0.300056  [32000/46312]
+loss: 0.424428  [38400/46312]
+loss: 0.473251  [44800/46312]
+Finished Epoch: 2 	Avg. Training Loss: 0.44106 	Avg. Validation Loss: 0.49336
+Validation loss decreased (0.72152 --> 0.49336). Saving model ...
+Started Epoch: 3
+loss: 0.295838  [    0/46312]
+loss: 0.534391  [ 6400/46312]
+loss: 0.350660  [12800/46312]
+loss: 0.318810  [19200/46312]
+loss: 0.405054  [25600/46312]
+loss: 0.242747  [32000/46312]
+loss: 0.424745  [38400/46312]
+loss: 0.318209  [44800/46312]
+Finished Epoch: 3 	Avg. Training Loss: 0.36667 	Avg. Validation Loss: 0.39346
+Validation loss decreased (0.49336 --> 0.39346). Saving model ...
+Started Epoch: 4
+loss: 0.409546  [    0/46312]
+loss: 0.437391  [ 6400/46312]
+loss: 0.333994  [12800/46312]
+loss: 0.325192  [19200/46312]
+loss: 0.250206  [25600/46312]
+loss: 0.282307  [32000/46312]
+loss: 0.288327  [38400/46312]
+loss: 0.234374  [44800/46312]
+Finished Epoch: 4 	Avg. Training Loss: 0.32685 	Avg. Validation Loss: 0.40285
+Started Epoch: 5
+loss: 0.250318  [    0/46312]
+loss: 0.323737  [ 6400/46312]
+loss: 0.421033  [12800/46312]
+loss: 0.358783  [19200/46312]
+loss: 0.515730  [25600/46312]
+loss: 0.454429  [32000/46312]
+loss: 0.365854  [38400/46312]
+loss: 0.166198  [44800/46312]
+Finished Epoch: 5 	Avg. Training Loss: 0.30575 	Avg. Validation Loss: 0.35201
+Validation loss decreased (0.39346 --> 0.35201). Saving model ...
+Started Epoch: 6
+loss: 0.142106  [    0/46312]
+loss: 0.279357  [ 6400/46312]
+loss: 0.323798  [12800/46312]
+loss: 0.321533  [19200/46312]
+loss: 0.249943  [25600/46312]
+loss: 0.316546  [32000/46312]
+loss: 0.260460  [38400/46312]
+loss: 0.274700  [44800/46312]
+Finished Epoch: 6 	Avg. Training Loss: 0.28277 	Avg. Validation Loss: 0.31708
+Validation loss decreased (0.35201 --> 0.31708). Saving model ...
+Started Epoch: 7
+loss: 0.281807  [    0/46312]
+loss: 0.262373  [ 6400/46312]
+loss: 0.230978  [12800/46312]
+loss: 0.184081  [19200/46312]
+loss: 0.325173  [25600/46312]
+loss: 0.366839  [32000/46312]
+loss: 0.250554  [38400/46312]
+loss: 0.161075  [44800/46312]
+Finished Epoch: 7 	Avg. Training Loss: 0.26760 	Avg. Validation Loss: 0.27774
+Validation loss decreased (0.31708 --> 0.27774). Saving model ...
+Started Epoch: 8
+loss: 0.305611  [    0/46312]
+loss: 0.197019  [ 6400/46312]
+loss: 0.272666  [12800/46312]
+loss: 0.209877  [19200/46312]
+loss: 0.182406  [25600/46312]
+loss: 0.189725  [32000/46312]
+loss: 0.289021  [38400/46312]
+loss: 0.336002  [44800/46312]
+Finished Epoch: 8 	Avg. Training Loss: 0.25350 	Avg. Validation Loss: 0.29789
+Started Epoch: 9
+loss: 0.264510  [    0/46312]
+loss: 0.287366  [ 6400/46312]
+loss: 0.272478  [12800/46312]
+loss: 0.245873  [19200/46312]
+loss: 0.334337  [25600/46312]
+loss: 0.169602  [32000/46312]
+loss: 0.227807  [38400/46312]
+loss: 0.314376  [44800/46312]
+Finished Epoch: 9 	Avg. Training Loss: 0.24133 	Avg. Validation Loss: 0.26841
+Validation loss decreased (0.27774 --> 0.26841). Saving model ...
+Started Epoch: 10
+loss: 0.184972  [    0/46312]
+loss: 0.207165  [ 6400/46312]
+loss: 0.271357  [12800/46312]
+loss: 0.157883  [19200/46312]
+loss: 0.230307  [25600/46312]
+loss: 0.301562  [32000/46312]
+loss: 0.330709  [38400/46312]
+loss: 0.099657  [44800/46312]
+Finished Epoch: 10 	Avg. Training Loss: 0.23084 	Avg. Validation Loss: 0.26578
+Validation loss decreased (0.26841 --> 0.26578). Saving model ...
+Started Epoch: 11
+loss: 0.248303  [    0/46312]
+loss: 0.304031  [ 6400/46312]
+loss: 0.132743  [12800/46312]
+loss: 0.075074  [19200/46312]
+loss: 0.192682  [25600/46312]
+loss: 0.149440  [32000/46312]
+loss: 0.364421  [38400/46312]
+loss: 0.169777  [44800/46312]
+Finished Epoch: 11 	Avg. Training Loss: 0.21994 	Avg. Validation Loss: 0.25149
+Validation loss decreased (0.26578 --> 0.25149). Saving model ...
+Started Epoch: 12
+loss: 0.239853  [    0/46312]
+loss: 0.174289  [ 6400/46312]
+loss: 0.280985  [12800/46312]
+loss: 0.165624  [19200/46312]
+loss: 0.246592  [25600/46312]
+loss: 0.282048  [32000/46312]
+loss: 0.154690  [38400/46312]
+loss: 0.171538  [44800/46312]
+Finished Epoch: 12 	Avg. Training Loss: 0.21421 	Avg. Validation Loss: 0.24423
+Validation loss decreased (0.25149 --> 0.24423). Saving model ...
+Started Epoch: 13
+loss: 0.154941  [    0/46312]
+loss: 0.168221  [ 6400/46312]
+loss: 0.119515  [12800/46312]
+loss: 0.265586  [19200/46312]
+loss: 0.194006  [25600/46312]
+loss: 0.242817  [32000/46312]
+loss: 0.324110  [38400/46312]
+loss: 0.146148  [44800/46312]
+Finished Epoch: 13 	Avg. Training Loss: 0.20485 	Avg. Validation Loss: 0.26788
+Started Epoch: 14
+loss: 0.266985  [    0/46312]
+loss: 0.138729  [ 6400/46312]
+loss: 0.141698  [12800/46312]
+loss: 0.138293  [19200/46312]
+loss: 0.114696  [25600/46312]
+loss: 0.180532  [32000/46312]
+loss: 0.065075  [38400/46312]
+loss: 0.179783  [44800/46312]
+Finished Epoch: 14 	Avg. Training Loss: 0.19745 	Avg. Validation Loss: 0.28332
+Started Epoch: 15
+loss: 0.287665  [    0/46312]
+loss: 0.096257  [ 6400/46312]
+loss: 0.114100  [12800/46312]
+loss: 0.188190  [19200/46312]
+loss: 0.223193  [25600/46312]
+loss: 0.200167  [32000/46312]
+loss: 0.227597  [38400/46312]
+loss: 0.163237  [44800/46312]
+Finished Epoch: 15 	Avg. Training Loss: 0.19356 	Avg. Validation Loss: 0.22085
+Validation loss decreased (0.24423 --> 0.22085). Saving model ...
+Started Epoch: 16
+loss: 0.183285  [    0/46312]
+loss: 0.108639  [ 6400/46312]
+loss: 0.268958  [12800/46312]
+loss: 0.167275  [19200/46312]
+loss: 0.234183  [25600/46312]
+loss: 0.174220  [32000/46312]
+loss: 0.210292  [38400/46312]
+loss: 0.295859  [44800/46312]
+Finished Epoch: 16 	Avg. Training Loss: 0.19093 	Avg. Validation Loss: 0.23226
+Started Epoch: 17
+loss: 0.111184  [    0/46312]
+loss: 0.137867  [ 6400/46312]
+loss: 0.235619  [12800/46312]
+loss: 0.192189  [19200/46312]
+loss: 0.232960  [25600/46312]
+loss: 0.177562  [32000/46312]
+loss: 0.085162  [38400/46312]
+loss: 0.271616  [44800/46312]
+Finished Epoch: 17 	Avg. Training Loss: 0.18578 	Avg. Validation Loss: 0.22726
+Started Epoch: 18
+loss: 0.171422  [    0/46312]
+loss: 0.121370  [ 6400/46312]
+loss: 0.172707  [12800/46312]
+loss: 0.125093  [19200/46312]
+loss: 0.209804  [25600/46312]
+loss: 0.220041  [32000/46312]
+loss: 0.210851  [38400/46312]
+loss: 0.119989  [44800/46312]
+Finished Epoch: 18 	Avg. Training Loss: 0.18036 	Avg. Validation Loss: 0.21108
+Validation loss decreased (0.22085 --> 0.21108). Saving model ...
+Started Epoch: 19
+loss: 0.117397  [    0/46312]
+loss: 0.124485  [ 6400/46312]
+loss: 0.233333  [12800/46312]
+loss: 0.298474  [19200/46312]
+loss: 0.158665  [25600/46312]
+loss: 0.083797  [32000/46312]
+loss: 0.136860  [38400/46312]
+loss: 0.128213  [44800/46312]
+Finished Epoch: 19 	Avg. Training Loss: 0.17512 	Avg. Validation Loss: 0.28400
+Started Epoch: 20
+loss: 0.236622  [    0/46312]
+loss: 0.098421  [ 6400/46312]
+loss: 0.063322  [12800/46312]
+loss: 0.137689  [19200/46312]
+loss: 0.167935  [25600/46312]
+loss: 0.176987  [32000/46312]
+loss: 0.255552  [38400/46312]
+loss: 0.241472  [44800/46312]
+Finished Epoch: 20 	Avg. Training Loss: 0.17234 	Avg. Validation Loss: 0.22289
+Started Epoch: 21
+loss: 0.159728  [    0/46312]
+loss: 0.274463  [ 6400/46312]
+loss: 0.293762  [12800/46312]
+loss: 0.222136  [19200/46312]
+loss: 0.204496  [25600/46312]
+loss: 0.152521  [32000/46312]
+loss: 0.166282  [38400/46312]
+loss: 0.168369  [44800/46312]
+Finished Epoch: 21 	Avg. Training Loss: 0.16483 	Avg. Validation Loss: 0.21886
+Started Epoch: 22
+loss: 0.235297  [    0/46312]
+loss: 0.082337  [ 6400/46312]
+loss: 0.124492  [12800/46312]
+loss: 0.107266  [19200/46312]
+loss: 0.212340  [25600/46312]
+loss: 0.219910  [32000/46312]
+loss: 0.194958  [38400/46312]
+loss: 0.094726  [44800/46312]
+Finished Epoch: 22 	Avg. Training Loss: 0.16278 	Avg. Validation Loss: 0.20229
+Validation loss decreased (0.21108 --> 0.20229). Saving model ...
+Started Epoch: 23
+loss: 0.166803  [    0/46312]
+loss: 0.151416  [ 6400/46312]
+loss: 0.153971  [12800/46312]
+loss: 0.107955  [19200/46312]
+loss: 0.168106  [25600/46312]
+loss: 0.083814  [32000/46312]
+loss: 0.065881  [38400/46312]
+loss: 0.125093  [44800/46312]
+Finished Epoch: 23 	Avg. Training Loss: 0.15400 	Avg. Validation Loss: 0.22562
+Started Epoch: 24
+loss: 0.066453  [    0/46312]
+loss: 0.226565  [ 6400/46312]
+loss: 0.137254  [12800/46312]
+loss: 0.213141  [19200/46312]
+loss: 0.240896  [25600/46312]
+loss: 0.121573  [32000/46312]
+loss: 0.130036  [38400/46312]
+loss: 0.179723  [44800/46312]
+Finished Epoch: 24 	Avg. Training Loss: 0.15715 	Avg. Validation Loss: 0.19361
+Validation loss decreased (0.20229 --> 0.19361). Saving model ...
+Started Epoch: 25
+loss: 0.088391  [    0/46312]
+loss: 0.205639  [ 6400/46312]
+loss: 0.128173  [12800/46312]
+loss: 0.084013  [19200/46312]
+loss: 0.176149  [25600/46312]
+loss: 0.134910  [32000/46312]
+loss: 0.356303  [38400/46312]
+loss: 0.106709  [44800/46312]
+Finished Epoch: 25 	Avg. Training Loss: 0.15637 	Avg. Validation Loss: 0.22447
+Started Epoch: 26
+loss: 0.056692  [    0/46312]
+loss: 0.119553  [ 6400/46312]
+loss: 0.115925  [12800/46312]
+loss: 0.113551  [19200/46312]
+loss: 0.156209  [25600/46312]
+loss: 0.189383  [32000/46312]
+loss: 0.281790  [38400/46312]
+loss: 0.130144  [44800/46312]
+Finished Epoch: 26 	Avg. Training Loss: 0.14784 	Avg. Validation Loss: 0.25569
+Started Epoch: 27
+loss: 0.098576  [    0/46312]
+loss: 0.191054  [ 6400/46312]
+loss: 0.225735  [12800/46312]
+loss: 0.092278  [19200/46312]
+loss: 0.129436  [25600/46312]
+loss: 0.117914  [32000/46312]
+loss: 0.188628  [38400/46312]
+loss: 0.193010  [44800/46312]
+Finished Epoch: 27 	Avg. Training Loss: 0.14451 	Avg. Validation Loss: 0.20766
+Started Epoch: 28
+loss: 0.166335  [    0/46312]
+loss: 0.157893  [ 6400/46312]
+loss: 0.106263  [12800/46312]
+loss: 0.090837  [19200/46312]
+loss: 0.104435  [25600/46312]
+loss: 0.073921  [32000/46312]
+loss: 0.125762  [38400/46312]
+loss: 0.146355  [44800/46312]
+Finished Epoch: 28 	Avg. Training Loss: 0.14150 	Avg. Validation Loss: 0.21385
+Started Epoch: 29
+loss: 0.085142  [    0/46312]
+loss: 0.175384  [ 6400/46312]
+loss: 0.091078  [12800/46312]
+loss: 0.125882  [19200/46312]
+loss: 0.119498  [25600/46312]
+loss: 0.202250  [32000/46312]
+loss: 0.232475  [38400/46312]
+loss: 0.132556  [44800/46312]
+Finished Epoch: 29 	Avg. Training Loss: 0.13869 	Avg. Validation Loss: 0.21232
+Started Epoch: 30
+loss: 0.101085  [    0/46312]
+loss: 0.187560  [ 6400/46312]
+loss: 0.175859  [12800/46312]
+loss: 0.048966  [19200/46312]
+loss: 0.158466  [25600/46312]
+loss: 0.031758  [32000/46312]
+loss: 0.166507  [38400/46312]
+loss: 0.035880  [44800/46312]
+Finished Epoch: 30 	Avg. Training Loss: 0.13433 	Avg. Validation Loss: 0.20246
+Started Epoch: 31
+loss: 0.191140  [    0/46312]
+loss: 0.092203  [ 6400/46312]
+loss: 0.114233  [12800/46312]
+loss: 0.123425  [19200/46312]
+loss: 0.086417  [25600/46312]
+loss: 0.176952  [32000/46312]
+loss: 0.131703  [38400/46312]
+loss: 0.191675  [44800/46312]
+Finished Epoch: 31 	Avg. Training Loss: 0.13558 	Avg. Validation Loss: 0.22267
+Started Epoch: 32
+loss: 0.059430  [    0/46312]
+loss: 0.087054  [ 6400/46312]
+loss: 0.105728  [12800/46312]
+loss: 0.055243  [19200/46312]
+loss: 0.139213  [25600/46312]
+loss: 0.138113  [32000/46312]
+loss: 0.089818  [38400/46312]
+loss: 0.059609  [44800/46312]
+Finished Epoch: 32 	Avg. Training Loss: 0.13296 	Avg. Validation Loss: 0.20811
+Started Epoch: 33
+loss: 0.056925  [    0/46312]
+loss: 0.160224  [ 6400/46312]
+loss: 0.178999  [12800/46312]
+loss: 0.133087  [19200/46312]
+loss: 0.119899  [25600/46312]
+loss: 0.147931  [32000/46312]
+loss: 0.113460  [38400/46312]
+loss: 0.195586  [44800/46312]
+Finished Epoch: 33 	Avg. Training Loss: 0.13403 	Avg. Validation Loss: 0.18981
+Validation loss decreased (0.19361 --> 0.18981). Saving model ...
+Started Epoch: 34
+loss: 0.154153  [    0/46312]
+loss: 0.150843  [ 6400/46312]
+loss: 0.113026  [12800/46312]
+loss: 0.112301  [19200/46312]
+loss: 0.167731  [25600/46312]
+loss: 0.139629  [32000/46312]
+loss: 0.098714  [38400/46312]
+loss: 0.112747  [44800/46312]
+Finished Epoch: 34 	Avg. Training Loss: 0.12766 	Avg. Validation Loss: 0.23592
+Started Epoch: 35
+loss: 0.150417  [    0/46312]
+loss: 0.103700  [ 6400/46312]
+loss: 0.136820  [12800/46312]
+loss: 0.154498  [19200/46312]
+loss: 0.114826  [25600/46312]
+loss: 0.092184  [32000/46312]
+loss: 0.165825  [38400/46312]
+loss: 0.242035  [44800/46312]
+Finished Epoch: 35 	Avg. Training Loss: 0.12711 	Avg. Validation Loss: 0.18892
+Validation loss decreased (0.18981 --> 0.18892). Saving model ...
+Started Epoch: 36
+loss: 0.078139  [    0/46312]
+loss: 0.132063  [ 6400/46312]
+loss: 0.099365  [12800/46312]
+loss: 0.097604  [19200/46312]
+loss: 0.185571  [25600/46312]
+loss: 0.144312  [32000/46312]
+loss: 0.093000  [38400/46312]
+loss: 0.146747  [44800/46312]
+Finished Epoch: 36 	Avg. Training Loss: 0.12438 	Avg. Validation Loss: 0.23434
+Started Epoch: 37
+loss: 0.104543  [    0/46312]
+loss: 0.146931  [ 6400/46312]
+loss: 0.034838  [12800/46312]
+loss: 0.069966  [19200/46312]
+loss: 0.036356  [25600/46312]
+loss: 0.127295  [32000/46312]
+loss: 0.089827  [38400/46312]
+loss: 0.110034  [44800/46312]
+Finished Epoch: 37 	Avg. Training Loss: 0.12387 	Avg. Validation Loss: 0.19616
+Started Epoch: 38
+loss: 0.148125  [    0/46312]
+loss: 0.083038  [ 6400/46312]
+loss: 0.113290  [12800/46312]
+loss: 0.056706  [19200/46312]
+loss: 0.122307  [25600/46312]
+loss: 0.102951  [32000/46312]
+loss: 0.199792  [38400/46312]
+loss: 0.191199  [44800/46312]
+Finished Epoch: 38 	Avg. Training Loss: 0.12339 	Avg. Validation Loss: 0.19439
+Started Epoch: 39
+loss: 0.116513  [    0/46312]
+loss: 0.115036  [ 6400/46312]
+loss: 0.074693  [12800/46312]
+loss: 0.165625  [19200/46312]
+loss: 0.092508  [25600/46312]
+loss: 0.173245  [32000/46312]
+loss: 0.074408  [38400/46312]
+loss: 0.120108  [44800/46312]
+Finished Epoch: 39 	Avg. Training Loss: 0.11932 	Avg. Validation Loss: 0.21014
+Started Epoch: 40
+loss: 0.101852  [    0/46312]
+loss: 0.096937  [ 6400/46312]
+loss: 0.190682  [12800/46312]
+loss: 0.091520  [19200/46312]
+loss: 0.108368  [25600/46312]
+loss: 0.091827  [32000/46312]
+loss: 0.129530  [38400/46312]
+loss: 0.058559  [44800/46312]
+Finished Epoch: 40 	Avg. Training Loss: 0.11374 	Avg. Validation Loss: 0.21609
+Started Epoch: 41
+loss: 0.081661  [    0/46312]
+loss: 0.144925  [ 6400/46312]
+loss: 0.057797  [12800/46312]
+loss: 0.087555  [19200/46312]
+loss: 0.046656  [25600/46312]
+loss: 0.129467  [32000/46312]
+loss: 0.180354  [38400/46312]
+loss: 0.133852  [44800/46312]
+Finished Epoch: 41 	Avg. Training Loss: 0.11339 	Avg. Validation Loss: 0.22710
+Started Epoch: 42
+loss: 0.215371  [    0/46312]
+loss: 0.080511  [ 6400/46312]
+loss: 0.068395  [12800/46312]
+loss: 0.117691  [19200/46312]
+loss: 0.170976  [25600/46312]
+loss: 0.039093  [32000/46312]
+loss: 0.078081  [38400/46312]
+loss: 0.112510  [44800/46312]
+Finished Epoch: 42 	Avg. Training Loss: 0.11371 	Avg. Validation Loss: 0.21535
+Started Epoch: 43
+loss: 0.063484  [    0/46312]
+loss: 0.130915  [ 6400/46312]
+loss: 0.056591  [12800/46312]
+loss: 0.309652  [19200/46312]
+loss: 0.046433  [25600/46312]
+loss: 0.110077  [32000/46312]
+loss: 0.100373  [38400/46312]
+loss: 0.058869  [44800/46312]
+Finished Epoch: 43 	Avg. Training Loss: 0.11126 	Avg. Validation Loss: 0.21843
+Started Epoch: 44
+loss: 0.083594  [    0/46312]
+loss: 0.053469  [ 6400/46312]
+loss: 0.066818  [12800/46312]
+loss: 0.063462  [19200/46312]
+loss: 0.029798  [25600/46312]
+loss: 0.064941  [32000/46312]
+loss: 0.227700  [38400/46312]
+loss: 0.095268  [44800/46312]
+Finished Epoch: 44 	Avg. Training Loss: 0.11159 	Avg. Validation Loss: 0.24111
+Started Epoch: 45
+loss: 0.113679  [    0/46312]
+loss: 0.087866  [ 6400/46312]
+loss: 0.033951  [12800/46312]
+loss: 0.128602  [19200/46312]
+loss: 0.060155  [25600/46312]
+loss: 0.185279  [32000/46312]
+loss: 0.037617  [38400/46312]
+loss: 0.170818  [44800/46312]
+Finished Epoch: 45 	Avg. Training Loss: 0.10716 	Avg. Validation Loss: 0.19588
+Started Epoch: 46
+loss: 0.175189  [    0/46312]
+loss: 0.076197  [ 6400/46312]
+loss: 0.143026  [12800/46312]
+loss: 0.107650  [19200/46312]
+loss: 0.160171  [25600/46312]
+loss: 0.044010  [32000/46312]
+loss: 0.065569  [38400/46312]
+loss: 0.106605  [44800/46312]
+Finished Epoch: 46 	Avg. Training Loss: 0.10704 	Avg. Validation Loss: 0.19428
+Started Epoch: 47
+loss: 0.095087  [    0/46312]
+loss: 0.185402  [ 6400/46312]
+loss: 0.128016  [12800/46312]
+loss: 0.169624  [19200/46312]
+loss: 0.043774  [25600/46312]
+loss: 0.079013  [32000/46312]
+loss: 0.095631  [38400/46312]
+loss: 0.084635  [44800/46312]
+Finished Epoch: 47 	Avg. Training Loss: 0.10573 	Avg. Validation Loss: 0.18217
+Validation loss decreased (0.18892 --> 0.18217). Saving model ...
+Started Epoch: 48
+loss: 0.072080  [    0/46312]
+loss: 0.136069  [ 6400/46312]
+loss: 0.175776  [12800/46312]
+loss: 0.062012  [19200/46312]
+loss: 0.164727  [25600/46312]
+loss: 0.102028  [32000/46312]
+loss: 0.183923  [38400/46312]
+loss: 0.055485  [44800/46312]
+Finished Epoch: 48 	Avg. Training Loss: 0.10562 	Avg. Validation Loss: 0.19058
+Started Epoch: 49
+loss: 0.086487  [    0/46312]
+loss: 0.203153  [ 6400/46312]
+loss: 0.037940  [12800/46312]
+loss: 0.090904  [19200/46312]
+loss: 0.071661  [25600/46312]
+loss: 0.083206  [32000/46312]
+loss: 0.101070  [38400/46312]
+loss: 0.101143  [44800/46312]
+Finished Epoch: 49 	Avg. Training Loss: 0.10275 	Avg. Validation Loss: 0.21936
+Started Epoch: 50
+loss: 0.065481  [    0/46312]
+loss: 0.060367  [ 6400/46312]
+loss: 0.086664  [12800/46312]
+loss: 0.105158  [19200/46312]
+loss: 0.095942  [25600/46312]
+loss: 0.177199  [32000/46312]
+loss: 0.139001  [38400/46312]
+loss: 0.150029  [44800/46312]
+Finished Epoch: 50 	Avg. Training Loss: 0.10357 	Avg. Validation Loss: 0.18342
+Test Loss: 0.019010
+
+
+Test Accuracy: 99.557 (46107.0/46312.0)
